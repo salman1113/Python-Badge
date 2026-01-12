@@ -10,3 +10,23 @@ n = 5
 #     print("*" * i)
 
 
+#reversin a string 
+
+# s = "Salman"
+# reverse = ""
+
+# i = len(s) - 1
+
+# while i >= 0:
+#     reverse += s[i]
+#     i -= 1
+
+# print(reverse)
+
+s = "salman"
+rev = ""
+
+for i in s:
+    rev = i + rev
+
+print(rev)
